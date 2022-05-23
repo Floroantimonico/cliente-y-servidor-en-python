@@ -4,8 +4,6 @@ import base64
 import sys
 import time
 
-from colorama import Fore, Back, Style
-
 cliente_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 host = sys.argv[1]
